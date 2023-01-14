@@ -18,7 +18,7 @@ SITE REALIZADO APÓS O ACOMPANHAMENTO DA FORMAÇÃO DE HMT/CSS DO CURSO ALURA.
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src="assets/img/preview.png" width="100%">
+  <img alt="Imagem inicial do site Alura Plus" src="assets/images/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
