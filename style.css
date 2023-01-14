@@ -51,17 +51,28 @@ body {
 }
 
 .container__botao {
-  background-color: var(--botao-azul);
   color: var(--branco-principal);
   border-radius: 5px;
   padding: 1em;
   display: block;
   margin-bottom: 1em;
 }
+.primeiro__botao {
+  background-color: var(--botao-azul);
+  transition: 0.3s;
+}
+
+.primeiro__botao:hover {
+  background-color: #065ac0;
+}
 
 .botao_secundario {
-  background-color: transparent;
   border: 2px solid var(--branco-principal);
+  transition: 0.3s;
+}
+
+.botao_secundario:hover {
+  border-color: #065ac0;
 }
 
 .container__aviso {
@@ -94,8 +105,14 @@ body {
   /* ------------ TERCEIRA SEÇÃO --------- */
 
   .secundario__botao {
+    background-color: var(--botao-azul);
     display: inline-block;
     margin-top: 1em;
+    transition: 0.3s;
+  }
+
+  .secundario__botao:hover {
+    background-color: #065ac0;
   }
 
   .container__descricao {
@@ -143,6 +160,11 @@ body {
 
  .lista__link a {
   color: var(--branco-principal);
+  transition: 0.2s;
+ }
+
+ .lista__link a:hover {
+  color: var(--botao-azul);
  }
 
  .rodape__texto {
