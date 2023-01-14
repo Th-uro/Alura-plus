@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
   box-sizing: border-box;
 }
 
@@ -99,4 +100,26 @@ body {
 
   .container__descricao {
     padding: 2em;
+  }
+
+  /* ------------ DISPOSITIVO FAVORITO --------- */
+
+  .dispositivos {
+    text-align: center;
+  }
+
+  .dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+  }
+
+  .dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+  }
+
+  .lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
   }
